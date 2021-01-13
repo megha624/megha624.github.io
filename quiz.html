@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title> how well do you know me? </title>
+    <link href= "quiz.css" type="text/css" rel="stylesheet" />
+
+
+  <head>
+
+  <body>
+    <div class="nav">
+
+      <br>
+      <br>
+
+      <div class="home">
+      <img src="homepage.png" alt="my picture" width="10%" />
+      </div>
+
+      <br>
+      <br>
+
+      <a class="mywebsite" href="mywebsite.html"> Home </a>
+      <a class="index" href="index.html"> My favorites! </a>
+      <a class="foodblog" href="recipeblog.html"> Recipes!!! </a>
+      <a class="pquiz" href="quiz.html"> How well do you know me? </a>
+    </div>
+
+
+    <form>
+      <h1> How well do you know me? </h1>
+      <h2> Click submit and look under each answer for your score! </h2>
+
+      <ol>
+       <li>
+      
+       <label> When is my birthday? </label>
+         <br>
+         <br>
+         <br>
+         <input type = "date" id = "2006-03-15"> </input>
+      </li>
+      <br>
+      <br>
+      <br>
+      <div id = "answer1"> Right or Wrong? </div>
+
+      <br>
+      <br>
+      <br>
+
+
+    <li>
+      <label> What is my favorite kind of dog? </label>
+        <br>
+        <br>
+        <input type = "radio" name="breed" id="goldendoodle"> Goldendoodle </input>
+        <br>
+        <br>
+        <input type = "radio" name="breed" id="daschund"> Daschund </input>
+        <br>
+        <br>
+        <input type = "radio" name="breed" id="retriever"> Golden Retriever </input>
+        <br>
+        <br>
+        <input type = "radio" name="breed" id="all"> I can't choose bc they are all so cute and I love them all </input>
+    </li>
+    <br>
+    <br>
+    <br>
+    <div id = "answer2"> Right or Wrong? </div>
+
+        <br>
+        <br>
+        <br>
+
+
+    <li>
+      <label> How much do I love roller coasters on a scale of 1-50 </label>
+        <br>
+        <br>
+        <br>
+        <input type="range" step="1" id="50" name="vol" min="1" max="50">
+    </li>
+    <br>
+    <br>
+    <br>
+    <div id = "answer3"> Right or Wrong? </div>
+
+        <br>
+        <br>
+        <br>
+
+
+    <li>
+      <label> What is my favorite kind of food? </label>
+        <br>
+        <br>
+        <input type = "radio" name="food" id="Pasta"> Pasta </input>
+        <br>
+        <br>
+        <input type = "radio" name="food" id="Sambar with Idli"> Sambar and idli </input>
+        <br>
+        <br>
+        <input type = "radio" name="food" id="Dosa with chilli powder"> Dosa with chilli powder </input>
+        <br>
+        <br>
+        <input type = "radio" name="food" id="Everything vegetarian"> Everything vegetarian </input>
+    </li>
+    <br>
+    <br>
+    <br>
+    <div id = "answer4"> Right or Wrong? </div>
+
+        <br>
+        <br>
+        <br>
+
+
+    <li>
+      <label> What's my favorite color? </label>
+        <br>
+        <br>
+        <br>
+        <input type = "color" name="favcolor" id="#922F52"> </input>
+    </li>
+    <br>
+    <br>
+    <br>
+    <div id = "answer5"> Right or Wrong? </div>
+
+
+        <br>
+        <br>
+        <br>
+
+
+    <li>
+      <label> Which restraunt would I go to on a rainy day? </label>
+        <br>
+        <br>
+        <input type = "radio" name="restraunt" id="chipotle"> Chipotle </input>
+        <br>
+        <br>
+        <input type = "radio" name="restraunt" id="tacobell"> Taco Bell </input>
+        <br>
+        <br>
+        <input type = "radio" name="restraunt" id="subway"> Subway </input>
+        <br>
+        <br>
+        <input type = "radio" name="restraunt" id="olivegarden"> Olive Garden </input>
+    </li>
+    <br>
+    <br>
+    <br>
+    <div id = "answer6"> Right or Wrong? </div>
+
+        <br>
+        <br>
+        <br>
+
+
+
+    <li>
+      <label> As of right now, what video game do I play most often? </label>
+        <br>
+        <br>
+        <input type = "checkbox" name="game" id="fortnite"> Fortnite </input>
+        <br>
+        <br>
+        <input type = "checkbox" name="game" id="amongus"> Among Us </input>
+        <br>
+        <br>
+        <input type = "checkbox" name="game" id="clash"> Clash Royale </input>
+        <br>
+        <br>
+        <input type = "checkbox" name="game" id="animal"> Animal Crossing </input>
+    </li>
+    <br>
+    <br>
+    <br>
+    <div id = "answer7"> Right or Wrong? </div>
+
+        <br>
+        <br>
+        <br>
+
+
+        <li>
+          <label> How many siblings do I have? </label>
+            <br>
+            <br>
+            <br>
+            <input type="range" step="1" id="1" name="number" min="0" max="5">
+        </li>
+        <br>
+        <br>
+        <br>
+        <div id = "answer8"> Right or Wrong? </div>
+
+            <br>
+            <br>
+            <br>
+
+
+
+    <li>
+      <label> How many languages can I read, understand, speak, and write? </label>
+        <br>
+        <br>
+        <br>
+        <input type="number" id="1" name="quantity" min="0" max="10"> </input>
+    </li>
+    <br>
+    <br>
+    <br>
+    <div id = "answer9"> Right or Wrong? </div>
+
+        <br>
+        <br>
+        <br>
+
+      <button onclick = "rightOrwrong()" button type = "button"> Submit </button>
+      <div id="answers"> </div>
+        <br>
+        <br>
+        <br>
+
+      </ol>
+    </form>
+
+    <script>
+
+      var date = document.getElementById("2006-03-15");
+
+      var breed = document.getElementById("all");
+
+      var vol = document.getElementById("50")
+
+      var food = document.getElementById("Everything vegetarian");
+
+      var favcolor = document.getElementById("#922F52");
+
+      var restraunt = document.getElementById("chipotle");
+
+      var game = document.getElementById("clash");
+
+      var number = document.getElementById("1");
+
+      var quantity = document.getElementById("2");
+
+
+      var answer1 = document.getElementById("answer1");
+
+      var answer2 = document.getElementById("answer2");
+
+      var answer3 = document.getElementById("answer3");
+
+      var answer4 = document.getElementById("answer4");
+
+      var answer5 = document.getElementById("answer5");
+
+      var answer6 = document.getElementById("answer6");
+
+      var answer7 = document.getElementById("answer7");
+
+      var answer8 = document.getElementById("answer8");
+
+      var answer9 = document.getElementById("answer9");
+
+
+      function rightOrwrong(){
+
+
+
+        if (date.value == "2006-03-15"){
+          answer1.innerHTML="You got it right, now scroll down and let's check the rest!";
+        }
+
+        else {
+          answer1.innerHTML="Try again, think: end of winter, beginning of spring";
+        }
+
+
+
+
+        if (breed.checked){
+          answer2.innerHTML="OFCCCC, they're all so cute :))";
+        }
+
+        else {
+          answer2.innerHTML="Come onnnn, the answer was right there!!";
+        }
+
+
+
+        if (vol.value == "50"){
+          answer3.innerHTML="Exactly";
+        }
+
+        else {
+          answer3.innerHTML="Try again, maybe a bit higher?";
+        }
+
+
+
+
+        if (food.checked){
+          answer4.innerHTML="Yup, you got it!";
+        }
+
+        else {
+          answer4.innerHTML="Nope, you were so close!";
+        }
+
+
+
+        if (favcolor.value == "#922F52"){
+          answer5.innerHTML="Wow! Super precise!";
+        }
+
+        else {
+          answer5.innerHTML="Try closer to magenta?";
+        }
+
+
+
+        if (restraunt.checked){
+          answer6.innerHTML="Abolutely, positvely, 110000%";
+        }
+
+        else {
+          answer6.innerHTML="nope, nopeee, try again";
+        }
+
+
+
+        if (game.checked){
+          answer7.innerHTML="CLASH ROYALE; PICK A FIGHT WITH EVERYONE";
+        }
+
+        else {
+          answer7.innerHTML="it probably changed... try again!";
+        }
+
+
+
+        if (number.value == "1"){
+          answer8.innerHTML="Do you know his name??";
+        }
+
+        else {
+          answer8.innerHTML="Tooooo many!!"
+        }
+
+
+
+        if (quantity.value == "2"){
+          answer9.innerHTML="You got it!"
+        }
+
+        else {
+          answer9.innerHTML=""
+        }
+
+
+      }
+
+    </script>
+
+  </body>
+
+</html>
